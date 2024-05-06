@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<style>
+    
+    body{
+        font-family: 'Baloo Bhai', cursive;
+        color: rgb(9, 7, 0);
+        margin: 0px;
+        padding: 0px;
+        background-image: url('images/music.png.jpg');
+        height: 800px;
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    
+    }
+    .left img{
+        width: 30px;
+    }
+    .mid{
+        border-radius: 40px;
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+        /* border: 2px solid black; */
+    }
+    .right{ 
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+        /* border: 2px solid black; */
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: rgb(6, 0, 0);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    /* .mid:hover{
+        scale: 1.1;
+    } */
+    .btn{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: gray;
+        color: rgb(0, 11, 11);
+        padding: 4px 14px;
+        border: 2px solid rgb(8, 0, 0);
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: white;
+        scale: 1.2;
+    }
+    .container{
+        border: 2px solid black;
+        margin: 106px 800px;
+        padding: 50px 10px;
+        width: 33%;
+        border-radius: 50px;
+        font-size: 10px;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 10px auto;
+        border-radius: 20px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 25%;
+        margin: auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="images/logo.png" alt="">
+            <div>Diksha music</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Music class</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best singing classes of RBL</h1>
+        <link rel="stylesheet" href="">
+        <form action="no action.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
